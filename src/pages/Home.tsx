@@ -200,7 +200,7 @@ function Home() {
               >
                 {!newsLoading && newsData && (
                   <>
-                    <StyledH2 className="mb-1">Notícias relevantes</StyledH2>
+                    <StyledH2 className="mb-1" id="total-sales-title">Notícias relevantes</StyledH2>
                     <CustomTable
                       headers={['Título', 'Horário']}
                       rows={newsData.map((news) => [
